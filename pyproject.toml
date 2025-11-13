@@ -1,0 +1,17 @@
+[project]
+name = "pt-llm-course-kompotkot"
+version = "0.0.1"
+description = "LLM and AI agents in cybersecurity solution by kompotkot"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "requests>=2.32.5",
+]
+
+[dependency-groups]
+dev = [
+    "black>=25.11.0",
+    "isort>=7.0.0",
+    "mypy>=1.18.2",
+    "types-requests>=2.32.4.20250913",
+]
